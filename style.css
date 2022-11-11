@@ -20,3 +20,13 @@ body {
     background-attachment: fixed;
 }
 
+#celular{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50% -50%);
+    height: 627px;
+    width: 311px;
+    background: url(imagens/frame-iphone.png) no-repeat;
+}
+
