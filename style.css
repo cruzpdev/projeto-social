@@ -7,26 +7,47 @@
 }
 
 body,html{
-    height: 100vw;
     width: 100vw;
-    background-color: black;
+    height: 100vh;
 }
 
 
 body {
     display: block;
-    background: url(imagens/fundo-madeira.jpg) no-repeat top center;
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
 
-#celular{
+main{
+    height: 100vh;
+    position: relative;
+}
+
+section{
+    display: block;
+}
+
+section#celular{
     position: absolute;
-    top: 40%;
-    left: 40%;
-    transform: translate(-50% -50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;
-    background: url(imagens/frame-iphone.png) no-repeat;
+    background: url('../imagens/frame-iphone.png') no-repeat;
 }
+
+section#redes{
+    text-align: right;
+}
+
+section#redes img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.442);
+    box-sizing: border-box;
+}
+
 
